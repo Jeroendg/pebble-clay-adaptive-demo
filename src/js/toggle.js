@@ -19,11 +19,7 @@ module.exports = function(minified)
 	
 	clayConfig.on(clayConfig.EVENTS.AFTER_BUILD, function()
 	{
-		
-		clayConfig.getItemByMessageKey('date_format').hide();
-		
 		var dateShow = clayConfig.getItemByMessageKey('date_show');
-		
 		toggleDate.call(dateShow);
 		dateShow.on('change', toggleDate);
 	});
