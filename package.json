@@ -1,0 +1,37 @@
+{
+    "author": "JeroenDG",
+    "dependencies": {
+        "pebble-clay": "^1.0.2",
+        "pebble-events": "^1.1.0"
+    },
+    "keywords": [],
+    "name": "clay-adaptive-demo",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "clay-adaptive-demo",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "back",
+            "text",
+            "date_show",
+            "date_format"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "625bdb79-688f-49a6-b0a6-d4d35a572e5d",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
