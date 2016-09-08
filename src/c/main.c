@@ -64,6 +64,7 @@ static void main_window_unload(Window *window)
 {
 	//Destroy time layer
 	text_layer_destroy(time_layer);
+	text_layer_destroy(date_layer);
 }
 
 static void inbox_received_callback(DictionaryIterator *iterator, void *context)
